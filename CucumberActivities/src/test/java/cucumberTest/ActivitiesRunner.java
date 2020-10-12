@@ -11,7 +11,10 @@ import io.cucumber.junit.CucumberOptions;
     features = "Features",
     glue = {"stepDefinitions"},
     tags = "@activity1_3",
-    dryRun = false
+    dryRun = false,
+    monochrome = true,
+    stepNotifications = true,
+    plugin = "pretty"
 )
 
 public class ActivitiesRunner {
